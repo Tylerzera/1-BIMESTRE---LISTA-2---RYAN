@@ -8,7 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Data\aluno.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Data\aluno.json" />
   </ItemGroup>
 
 </Project>
